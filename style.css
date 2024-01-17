@@ -1,0 +1,39 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+  .shrek {
+    height: 78px;
+    width: 98px;
+  }
+  .shrek:nth-child(1) {
+    background-color: red;
+    order: -2;
+    flex-grow: 1.5;
+    width: 135px;
+  }
+  .shrek:nth-child(2) {
+    background-color: skyblue;
+    background-color: rgb(25, 148, 196);
+    flex-grow: 1;
+  }
+  .shrek:nth-child(3) {
+    background-color: blue;
+    background-color: rgb(83, 0, 185);
+    order: -1;
+    flex-grow: 1;
+  }
+  .shrek:nth-child(4) {
+    background-color: green;
+    flex-grow: 1;
+  }
+  .shrek:nth-child(5) {
+    background-color: yellow;
+    background-color: rgb(6, 186, 0);
+    order: -2;
+    flex-grow: 1.5;
+    width: 135px;
+  }
+
+  
